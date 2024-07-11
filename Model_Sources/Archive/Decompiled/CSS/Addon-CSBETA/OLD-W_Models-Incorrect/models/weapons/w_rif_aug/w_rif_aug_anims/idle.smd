@@ -1,0 +1,9 @@
+// Created by Crowbar 0.74
+version 1
+nodes
+  0 "Steyr Aug" -1
+end
+skeleton
+  time 0
+    0 -1.944336 -2.375000 0.460938 0.003267 -0.001398 -1.284341
+end

@@ -1,0 +1,9 @@
+// Created by Crowbar 0.74
+version 1
+nodes
+  0 "w_scout" -1
+end
+skeleton
+  time 0
+    0 0.903809 -2.443359 0.809570 0.785309 1.523043 0.406910
+end

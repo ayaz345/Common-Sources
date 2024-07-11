@@ -1,0 +1,44 @@
+// Created by Crowbar 0.74
+
+$modelname "weapons\w_rif_galil.mdl"
+
+$bodygroup "studio"
+{
+	studio "w_galil.smd"
+}
+
+
+$surfaceprop "weapon"
+
+$contents "solid"
+
+$illumposition 0.188 -11.542 0.614
+
+$cdmaterials "models\weapons\w_models\cs16_galil\"
+
+$attachment "muzzle_flash" "ValveBiped.flash" 0 0 0 rotate -90 0 0
+
+$cbox 0 0 0 0 0 0
+
+$bbox -9.957 -2.569 -5.913 33.164 1.3 6.856
+
+$definebone "ValveBiped" "" 0 0 0 0 0 89.999982 0 0 0 0 0 0
+$definebone "ValveBiped.weapon_bone" "ValveBiped" 1.227019 4.371634 5.825668 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.weapon_bone_Clip" "ValveBiped.weapon_bone" -0.856573 -4.371634 4.049643 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.flash" "ValveBiped.weapon_bone" -0.950631 -0.692509 27.08791 0 0 0 0 0 0 0 0 0
+
+
+$sequence "idle" {
+	"w_rif_galil_anims\idle.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$keyvalues
+{
+	prop_data 
+	{
+		"base" "Metal.Small"
+	}
+}

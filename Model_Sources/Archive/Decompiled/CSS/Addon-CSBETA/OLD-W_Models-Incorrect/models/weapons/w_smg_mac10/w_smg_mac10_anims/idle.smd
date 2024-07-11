@@ -1,0 +1,9 @@
+// Created by Crowbar 0.74
+version 1
+nodes
+  0 "MAC-10" -1
+end
+skeleton
+  time 0
+    0 7.082031 -6.199219 1.099609 0.548299 -1.541596 -3.696164
+end

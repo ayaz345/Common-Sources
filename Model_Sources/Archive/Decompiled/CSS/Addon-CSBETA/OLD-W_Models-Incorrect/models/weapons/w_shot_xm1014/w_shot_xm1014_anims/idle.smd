@@ -1,0 +1,9 @@
+// Created by Crowbar 0.74
+version 1
+nodes
+  0 "xm1014" -1
+end
+skeleton
+  time 0
+    0 -0.204468 -3.523438 1.131836 1.470883 -1.565558 -1.360931
+end

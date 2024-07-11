@@ -1,0 +1,9 @@
+// Created by Crowbar 0.74
+version 1
+nodes
+  0 "G3/SG-1" -1
+end
+skeleton
+  time 0
+    0 -4.011719 -27.640625 1.272461 1.570752 1.535930 -3.272624
+end

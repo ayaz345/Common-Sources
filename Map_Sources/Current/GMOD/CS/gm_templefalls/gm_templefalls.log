@@ -1,0 +1,2016 @@
+================ Log started [10.12.2023, 19:05:23] =================
+
+Game Directory: "C:\Apps\Ultimate SSDK\Source Engine CSS\cstrike".
+Current Map: "c:\gm_templefalls.vmf".
+
+
+
+============ Started VBSP compilation [10.12.2023, 19:05:23] =============
+Parameters: [None]
+
+
+
+materialPath: C:\Apps\Ultimate SSDK\Source Engine CSS\cstrike\materials
+Loading c:\gm_templefalls.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\apps\ultimate ssdk\source engine css\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10
+0...1...2...3...4...5...6...7...8...9...10
+Processing areas...
+Done (0)
+Building Faces...
+Done (0)
+Chop Details...
+Done (0)
+Find Visible Detail Sides...
+Done (0)
+Merging details...
+Done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\gm_templefalls.prt...
+Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/space*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/space*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (416095 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1822 texinfos to 1372
+Reduced 80 texdatas to 78 (2075 bytes to 2023)
+Writing c:\gm_templefalls.bsp
+3 seconds elapsed
+
+
+
+============ Managing compiled files [10.12.2023, 19:05:27] =============
+
+Deleting previous compilation...
+- Nothing to delete.
+Placing file to BSP directory...
+- Source path: "c:\gm_templefalls.bsp"
+- Destination path: "C:\Apps\Ultimate SSDK\Source Engine CSS\cstrike\maps\"
+- File succesfully copied.
+Deleting compilation dumps...
+- Deleted: "c:\gm_templefalls.prt".
+- Deleted: "c:\gm_templefalls.bsp".
+
+
+=========== Started MAN to sew resources [10.12.2023, 19:05:27] ===========
+
+Dir for searching resources:
+"C:\Apps\Ultimate SSDK\Source Engine CSS\cstrike".
+
+Map Analyst MAN version 2.6 (e) 11. April 2007
+Copyright 2007 by Rolf Haenisch, Berlin
+
+Scan BSP file:
+    VBSP: C:\Apps\Ultimate SSDK\Source Engine CSS\cstrike\maps\gm_templefalls.bsp
+    this is VBSP version 20 (revision 39)
+    (2080.0 x 2240.0 x 928.0)
+    scaned environment of file: C:\Apps\Ultimate SSDK\Source Engine CSS\cstrike\maps\gm_templefalls.bsp
+4190 lines, no errors
+
+
+Analyze BSP file:
+    check models
+    not checked: models/props/aztec_statue.mdl
+    check extra files
+    check sounds
+    not added: sound/ambience/kratos.wav
+    not added: sound/ambience/bubbles.wav
+    check vcd files
+    check sprites
+    check game files
+    check materials
+    add:        102 materials\skybox/spaceup.vmt
+    add:     262335 materials\skybox/spaceup.vtf
+    add:        102 materials\skybox/spacert.vmt
+    add:     262335 materials\skybox/spacert.vtf
+    add:        102 materials\skybox/spacelf.vmt
+    add:     262335 materials\skybox/spacelf.vtf
+    add:        102 materials\skybox/spaceft.vmt
+    add:     262335 materials\skybox/spaceft.vtf
+    add:        102 materials\skybox/spacedn.vmt
+    add:     262335 materials\skybox/spacedn.vtf
+    add:        102 materials\skybox/spacebk.vmt
+    add:     262335 materials\skybox/spacebk.vtf
+    add:        149 materials\TEMPLEFALLS/BLOCK06A.vmt
+    add:      43912 materials\templefalls/block06a.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    not added: materials\TOOLS/TOOLSNODRAW.vmt
+    add:        148 materials\TEMPLEFALLS/128-03A.vmt
+    add:      22008 materials\templefalls/128-03a.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        153 materials\TEMPLEFALLS/SOLIDGRATE2B.vmt
+    add:      11144 materials\templefalls/solidgrate2b.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/STONE04B.vmt
+    add:      43912 materials\templefalls/stone04b.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/STONE03B.vmt
+    add:      43912 materials\templefalls/stone03b.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        148 materials\TEMPLEFALLS/064-04B.vmt
+    add:      11064 materials\templefalls/064-04b.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/STONE04D.vmt
+    add:      43912 materials\templefalls/stone04d.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/BLOCK06B.vmt
+    add:      43912 materials\templefalls/block06b.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        148 materials\TEMPLEFALLS/128-01B.vmt
+    add:      22008 materials\templefalls/128-01b.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/STONE09B.vmt
+    add:      43912 materials\templefalls/stone09b.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        148 materials\TEMPLEFALLS/048-02F.vmt
+    add:      11064 materials\templefalls/048-02f.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/BLOCK07B.vmt
+    add:      43912 materials\templefalls/block07b.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        148 materials\TEMPLEFALLS/032-05D.vmt
+    add:       5624 materials\templefalls/032-05d.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/BLOCK02B.vmt
+    add:      43912 materials\templefalls/block02b.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/BLOCK01B.vmt
+    add:      43912 materials\templefalls/block01b.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        148 materials\TEMPLEFALLS/064-05A.vmt
+    add:      11064 materials\templefalls/064-05a.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        151 materials\TEMPLEFALLS/128-05A.vmt
+    add:      22008 materials\templefalls/128-05a.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        148 materials\TEMPLEFALLS/064-05C.vmt
+    add:      11064 materials\templefalls/064-05c.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        148 materials\TEMPLEFALLS/128-05I.vmt
+    add:      22008 materials\templefalls/128-05i.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        148 materials\TEMPLEFALLS/128-05C.vmt
+    add:      22008 materials\templefalls/128-05c.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/S064-05G.vmt
+    add:      11144 materials\templefalls/s064-05g.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/STONE09C.vmt
+    add:      43912 materials\templefalls/stone09c.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/BLOCK10A.vmt
+    add:      43912 materials\templefalls/block10a.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/S064-05I.vmt
+    add:      11144 materials\templefalls/s064-05i.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        148 materials\TEMPLEFALLS/064-04C.vmt
+    add:      11064 materials\templefalls/064-04c.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        150 materials\TEMPLEFALLS/RELIEF03B.vmt
+    add:      43912 materials\templefalls/relief03b.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/STONE08D.vmt
+    add:      43912 materials\templefalls/stone08d.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/128-01PA.vmt
+    add:      22008 materials\templefalls/128-01pa.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        148 materials\TEMPLEFALLS/032-01B.vmt
+    add:       5624 materials\templefalls/032-01b.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/STONE06B.vmt
+    add:      43912 materials\templefalls/stone06b.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/BLOCK10C.vmt
+    add:      43912 materials\templefalls/block10c.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/BLOCK04B.vmt
+    add:      43912 materials\templefalls/block04b.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        148 materials\TEMPLEFALLS/032-04D.vmt
+    add:       5624 materials\templefalls/032-04d.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/BLOCK08D.vmt
+    add:      43912 materials\templefalls/block08d.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/STONE10C.vmt
+    add:      43912 materials\templefalls/stone10c.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/S064-05E.vmt
+    add:      11144 materials\templefalls/s064-05e.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/STONE02C.vmt
+    add:      43912 materials\templefalls/stone02c.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        148 materials\TEMPLEFALLS/032-05C.vmt
+    add:       5624 materials\templefalls/032-05c.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/S064-05M.vmt
+    add:      11144 materials\templefalls/s064-05m.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/S128-02C.vmt
+    add:      11144 materials\templefalls/s128-02c.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/STONE02D.vmt
+    add:      43912 materials\templefalls/stone02d.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        148 materials\TEMPLEFALLS/128-05D.vmt
+    add:      22008 materials\templefalls/128-05d.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/STONE10D.vmt
+    add:      43912 materials\templefalls/stone10d.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        148 materials\TEMPLEFALLS/064-06A.vmt
+    add:      11064 materials\templefalls/064-06a.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        191 materials\HALFLIFE/-0FIFTIES_W12.vmt
+    add:       2936 materials\halflife/-0fifties_w12.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        236 materials\HALFLIFE/{BLUE.vmt
+    add:        376 materials\halflife/{blue.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        307 materials\HALFLIFE/SCROLLWATER1.vmt
+    add:       2936 materials\halflife/scrollwater1.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        244 materials\HALFLIFE/{GRATE3B.vmt
+    add:       5680 materials\halflife/{grate3b.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/STONE04A.vmt
+    add:      43912 materials\templefalls/stone04a.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        250 materials\HALFLIFE/SCROLL_CONV3.vmt
+    add:       5608 materials\halflife/scroll_conv3.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        153 materials\TEMPLEFALLS/LIG_064-01W1.vmt
+    add:       2952 materials\templefalls/lig_064-01w1.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        153 materials\TEMPLEFALLS/LIG_128-05Y2.vmt
+    add:       5624 materials\templefalls/lig_128-05y2.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    not added: materials\TOOLS/TOOLSTRIGGER.vmt
+    add:        149 materials\TEMPLEFALLS/BLOCK08A.vmt
+    add:      43912 materials\templefalls/block08a.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/S064-05K.vmt
+    add:      11144 materials\templefalls/s064-05k.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        148 materials\TEMPLEFALLS/128-05G.vmt
+    add:      22008 materials\templefalls/128-05g.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/S064-05A.vmt
+    add:      11144 materials\templefalls/s064-05a.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        151 materials\TEMPLEFALLS/JUMPPAD1BG.vmt
+    add:      43912 materials\templefalls/jumppad1bg.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:         62 materials\CS_ITALY/BLACK.vmt
+    add:       1584 materials\cs_italy/black.vtf
+    add:        150 materials\TEMPLEFALLS/JUMPPAD1B.vmt
+    add:      43912 materials\templefalls/jumppad1b.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        150 materials\TEMPLEFALLS/JUMPPAD1G.vmt
+    add:      43912 materials\templefalls/jumppad1g.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        148 materials\TEMPLEFALLS/032-03C.vmt
+    add:       5624 materials\templefalls/032-03c.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        149 materials\TEMPLEFALLS/S064-05O.vmt
+    add:      11144 materials\templefalls/s064-05o.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        148 materials\TEMPLEFALLS/064-04A.vmt
+    add:      11064 materials\templefalls/064-04a.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        155 materials\TEMPLEFALLS/SOLIDGRATE2A.vmt
+    add:      11144 materials\templefalls/solidgrate2a.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        160 materials\HALFLIFE/FADE.vmt
+    add:       2856 materials\halflife/fade.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        239 materials\TEMPLEFALLS/!KLOBBWATER1.vmt
+    add:      11144 materials\templefalls/!klobbwater1.vtf
+    add:      11144 materials\templefalls/!klobbwater1_r.vtf
+    add:      11128 materials\detail/detail_noise1.vtf
+    add:        121 materials\sprites/glow01.vmt
+    add:      16575 materials\sprites/glow01.vtf
+    add:        131 materials\sprites/xsmoke1.vmt
+    add:      61617 materials\sprites/xsmoke1.vtf
+                                                                
+Update BSP file:
+    VBSP: C:\Apps\Ultimate SSDK\Source Engine CSS\cstrike\maps\gm_templefalls.bsp
+    this is VBSP version 20 (revision 39)
+    include: materials\CS_ITALY/BLACK.vmt
+    include: materials\cs_italy/black.vtf
+    include: materials\detail/detail_noise1.vtf
+    include: materials\HALFLIFE/-0FIFTIES_W12.vmt
+    include: materials\halflife/-0fifties_w12.vtf
+    include: materials\HALFLIFE/FADE.vmt
+    include: materials\halflife/fade.vtf
+    include: materials\HALFLIFE/SCROLL_CONV3.vmt
+    include: materials\halflife/scroll_conv3.vtf
+    include: materials\HALFLIFE/SCROLLWATER1.vmt
+    include: materials\halflife/scrollwater1.vtf
+    include: materials\HALFLIFE/{BLUE.vmt
+    include: materials\halflife/{blue.vtf
+    include: materials\HALFLIFE/{GRATE3B.vmt
+    include: materials\halflife/{grate3b.vtf
+    remain: materials/maps/gm_templefalls/c-391_-812_-343.hdr.vtf
+    remain: materials/maps/gm_templefalls/c-391_-812_-343.vtf
+    remain: materials/maps/gm_templefalls/c-405_-712_-83.hdr.vtf
+    remain: materials/maps/gm_templefalls/c-405_-712_-83.vtf
+    remain: materials/maps/gm_templefalls/c-470_-704_178.hdr.vtf
+    remain: materials/maps/gm_templefalls/c-470_-704_178.vtf
+    remain: materials/maps/gm_templefalls/c-502_0_-55.hdr.vtf
+    remain: materials/maps/gm_templefalls/c-502_0_-55.vtf
+    remain: materials/maps/gm_templefalls/c-503_-90_-343.hdr.vtf
+    remain: materials/maps/gm_templefalls/c-503_-90_-343.vtf
+    remain: materials/maps/gm_templefalls/c-5_328_-326.hdr.vtf
+    remain: materials/maps/gm_templefalls/c-5_328_-326.vtf
+    remain: materials/maps/gm_templefalls/c-71_831_-343.hdr.vtf
+    remain: materials/maps/gm_templefalls/c-71_831_-343.vtf
+    remain: materials/maps/gm_templefalls/c-762_909_-343.hdr.vtf
+    remain: materials/maps/gm_templefalls/c-762_909_-343.vtf
+    remain: materials/maps/gm_templefalls/c117_920_107.hdr.vtf
+    remain: materials/maps/gm_templefalls/c117_920_107.vtf
+    remain: materials/maps/gm_templefalls/c122_-832_259.hdr.vtf
+    remain: materials/maps/gm_templefalls/c122_-832_259.vtf
+    remain: materials/maps/gm_templefalls/c403_823_-343.hdr.vtf
+    remain: materials/maps/gm_templefalls/c403_823_-343.vtf
+    remain: materials/maps/gm_templefalls/c45_17_-327.hdr.vtf
+    remain: materials/maps/gm_templefalls/c45_17_-327.vtf
+    remain: materials/maps/gm_templefalls/c564_-767_-343.hdr.vtf
+    remain: materials/maps/gm_templefalls/c564_-767_-343.vtf
+    remain: materials/maps/gm_templefalls/c644_-730_-83.hdr.vtf
+    remain: materials/maps/gm_templefalls/c644_-730_-83.vtf
+    remain: materials/maps/gm_templefalls/c675_-699_169.hdr.vtf
+    remain: materials/maps/gm_templefalls/c675_-699_169.vtf
+    remain: materials/maps/gm_templefalls/c715_5_-70.hdr.vtf
+    remain: materials/maps/gm_templefalls/c715_5_-70.vtf
+    remain: materials/maps/gm_templefalls/c83_939_-66.hdr.vtf
+    remain: materials/maps/gm_templefalls/c83_939_-66.vtf
+    remain: materials/maps/gm_templefalls/c873_70_-334.hdr.vtf
+    remain: materials/maps/gm_templefalls/c873_70_-334.vtf
+    remain: materials/maps/gm_templefalls/c916_824_-343.hdr.vtf
+    remain: materials/maps/gm_templefalls/c916_824_-343.vtf
+    remain: materials/maps/gm_templefalls/cubemapdefault.hdr.vtf
+    remain: materials/maps/gm_templefalls/cubemapdefault.vtf
+    remain: materials/maps/gm_templefalls/templefalls/!klobbwater1_-405_-712_-83.vmt
+    remain: materials/maps/gm_templefalls/templefalls/!klobbwater1_-503_-90_-343.vmt
+    remain: materials/maps/gm_templefalls/templefalls/!klobbwater1_-71_831_-343.vmt
+    remain: materials/maps/gm_templefalls/templefalls/!klobbwater1_-762_909_-343.vmt
+    remain: materials/maps/gm_templefalls/templefalls/!klobbwater1_122_-832_259.vmt
+    remain: materials/maps/gm_templefalls/templefalls/!klobbwater1_403_823_-343.vmt
+    remain: materials/maps/gm_templefalls/templefalls/!klobbwater1_45_17_-327.vmt
+    remain: materials/maps/gm_templefalls/templefalls/!klobbwater1_564_-767_-343.vmt
+    remain: materials/maps/gm_templefalls/templefalls/!klobbwater1_675_-699_169.vmt
+    remain: materials/maps/gm_templefalls/templefalls/!klobbwater1_715_5_-70.vmt
+    remain: materials/maps/gm_templefalls/templefalls/!klobbwater1_916_824_-343.vmt
+    include: materials\skybox/spacebk.vmt
+    include: materials\skybox/spacebk.vtf
+    include: materials\skybox/spacedn.vmt
+    include: materials\skybox/spacedn.vtf
+    include: materials\skybox/spaceft.vmt
+    include: materials\skybox/spaceft.vtf
+    include: materials\skybox/spacelf.vmt
+    include: materials\skybox/spacelf.vtf
+    include: materials\skybox/spacert.vmt
+    include: materials\skybox/spacert.vtf
+    include: materials\skybox/spaceup.vmt
+    include: materials\skybox/spaceup.vtf
+    include: materials\sprites/glow01.vmt
+    include: materials\sprites/glow01.vtf
+    include: materials\sprites/xsmoke1.vmt
+    include: materials\sprites/xsmoke1.vtf
+    include: materials\TEMPLEFALLS/!KLOBBWATER1.vmt
+    include: materials\templefalls/!klobbwater1.vtf
+    include: materials\templefalls/!klobbwater1_r.vtf
+    include: materials\TEMPLEFALLS/032-01B.vmt
+    include: materials\templefalls/032-01b.vtf
+    include: materials\TEMPLEFALLS/032-03C.vmt
+    include: materials\templefalls/032-03c.vtf
+    include: materials\TEMPLEFALLS/032-04D.vmt
+    include: materials\templefalls/032-04d.vtf
+    include: materials\TEMPLEFALLS/032-05C.vmt
+    include: materials\templefalls/032-05c.vtf
+    include: materials\TEMPLEFALLS/032-05D.vmt
+    include: materials\templefalls/032-05d.vtf
+    include: materials\TEMPLEFALLS/048-02F.vmt
+    include: materials\templefalls/048-02f.vtf
+    include: materials\TEMPLEFALLS/064-04A.vmt
+    include: materials\templefalls/064-04a.vtf
+    include: materials\TEMPLEFALLS/064-04B.vmt
+    include: materials\templefalls/064-04b.vtf
+    include: materials\TEMPLEFALLS/064-04C.vmt
+    include: materials\templefalls/064-04c.vtf
+    include: materials\TEMPLEFALLS/064-05A.vmt
+    include: materials\templefalls/064-05a.vtf
+    include: materials\TEMPLEFALLS/064-05C.vmt
+    include: materials\templefalls/064-05c.vtf
+    include: materials\TEMPLEFALLS/064-06A.vmt
+    include: materials\templefalls/064-06a.vtf
+    include: materials\TEMPLEFALLS/128-01B.vmt
+    include: materials\templefalls/128-01b.vtf
+    include: materials\TEMPLEFALLS/128-01PA.vmt
+    include: materials\templefalls/128-01pa.vtf
+    include: materials\TEMPLEFALLS/128-03A.vmt
+    include: materials\templefalls/128-03a.vtf
+    include: materials\TEMPLEFALLS/128-05A.vmt
+    include: materials\templefalls/128-05a.vtf
+    include: materials\TEMPLEFALLS/128-05C.vmt
+    include: materials\templefalls/128-05c.vtf
+    include: materials\TEMPLEFALLS/128-05D.vmt
+    include: materials\templefalls/128-05d.vtf
+    include: materials\TEMPLEFALLS/128-05G.vmt
+    include: materials\templefalls/128-05g.vtf
+    include: materials\TEMPLEFALLS/128-05I.vmt
+    include: materials\templefalls/128-05i.vtf
+    include: materials\TEMPLEFALLS/BLOCK01B.vmt
+    include: materials\templefalls/block01b.vtf
+    include: materials\TEMPLEFALLS/BLOCK02B.vmt
+    include: materials\templefalls/block02b.vtf
+    include: materials\TEMPLEFALLS/BLOCK04B.vmt
+    include: materials\templefalls/block04b.vtf
+    include: materials\TEMPLEFALLS/BLOCK06A.vmt
+    include: materials\templefalls/block06a.vtf
+    include: materials\TEMPLEFALLS/BLOCK06B.vmt
+    include: materials\templefalls/block06b.vtf
+    include: materials\TEMPLEFALLS/BLOCK07B.vmt
+    include: materials\templefalls/block07b.vtf
+    include: materials\TEMPLEFALLS/BLOCK08A.vmt
+    include: materials\templefalls/block08a.vtf
+    include: materials\TEMPLEFALLS/BLOCK08D.vmt
+    include: materials\templefalls/block08d.vtf
+    include: materials\TEMPLEFALLS/BLOCK10A.vmt
+    include: materials\templefalls/block10a.vtf
+    include: materials\TEMPLEFALLS/BLOCK10C.vmt
+    include: materials\templefalls/block10c.vtf
+    include: materials\TEMPLEFALLS/JUMPPAD1B.vmt
+    include: materials\templefalls/jumppad1b.vtf
+    include: materials\TEMPLEFALLS/JUMPPAD1BG.vmt
+    include: materials\templefalls/jumppad1bg.vtf
+    include: materials\TEMPLEFALLS/JUMPPAD1G.vmt
+    include: materials\templefalls/jumppad1g.vtf
+    include: materials\TEMPLEFALLS/LIG_064-01W1.vmt
+    include: materials\templefalls/lig_064-01w1.vtf
+    include: materials\TEMPLEFALLS/LIG_128-05Y2.vmt
+    include: materials\templefalls/lig_128-05y2.vtf
+    include: materials\TEMPLEFALLS/RELIEF03B.vmt
+    include: materials\templefalls/relief03b.vtf
+    include: materials\TEMPLEFALLS/S064-05A.vmt
+    include: materials\templefalls/s064-05a.vtf
+    include: materials\TEMPLEFALLS/S064-05E.vmt
+    include: materials\templefalls/s064-05e.vtf
+    include: materials\TEMPLEFALLS/S064-05G.vmt
+    include: materials\templefalls/s064-05g.vtf
+    include: materials\TEMPLEFALLS/S064-05I.vmt
+    include: materials\templefalls/s064-05i.vtf
+    include: materials\TEMPLEFALLS/S064-05K.vmt
+    include: materials\templefalls/s064-05k.vtf
+    include: materials\TEMPLEFALLS/S064-05M.vmt
+    include: materials\templefalls/s064-05m.vtf
+    include: materials\TEMPLEFALLS/S064-05O.vmt
+    include: materials\templefalls/s064-05o.vtf
+    include: materials\TEMPLEFALLS/S128-02C.vmt
+    include: materials\templefalls/s128-02c.vtf
+    include: materials\TEMPLEFALLS/SOLIDGRATE2A.vmt
+    include: materials\templefalls/solidgrate2a.vtf
+    include: materials\TEMPLEFALLS/SOLIDGRATE2B.vmt
+    include: materials\templefalls/solidgrate2b.vtf
+    include: materials\TEMPLEFALLS/STONE02C.vmt
+    include: materials\templefalls/stone02c.vtf
+    include: materials\TEMPLEFALLS/STONE02D.vmt
+    include: materials\templefalls/stone02d.vtf
+    include: materials\TEMPLEFALLS/STONE03B.vmt
+    include: materials\templefalls/stone03b.vtf
+    include: materials\TEMPLEFALLS/STONE04A.vmt
+    include: materials\templefalls/stone04a.vtf
+    include: materials\TEMPLEFALLS/STONE04B.vmt
+    include: materials\templefalls/stone04b.vtf
+    include: materials\TEMPLEFALLS/STONE04D.vmt
+    include: materials\templefalls/stone04d.vtf
+    include: materials\TEMPLEFALLS/STONE06B.vmt
+    include: materials\templefalls/stone06b.vtf
+    include: materials\TEMPLEFALLS/STONE08D.vmt
+    include: materials\templefalls/stone08d.vtf
+    include: materials\TEMPLEFALLS/STONE09B.vmt
+    include: materials\templefalls/stone09b.vtf
+    include: materials\TEMPLEFALLS/STONE09C.vmt
+    include: materials\templefalls/stone09c.vtf
+    include: materials\TEMPLEFALLS/STONE10C.vmt
+    include: materials\templefalls/stone10c.vtf
+    include: materials\TEMPLEFALLS/STONE10D.vmt
+    include: materials\templefalls/stone10d.vtf
+    done
+
+No errors
+
+
+
+All operations completed.
+Total time: 4 seconds.
+
+================ Log closed [10.12.2023, 19:05:28] =================
+
+
+
+materialPath: E:\Games\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\gm_templefalls.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\gm_templefalls.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/space*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/space*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (416894 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1822 texinfos to 1372
+Reduced 80 texdatas to 78 (2075 bytes to 2023)
+Writing c:\gm_templefalls.bsp
+2 seconds elapsed
+
+
+
+materialPath: E:\Games\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\gm_templefalls.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\gm_templefalls.prt...Building visibility clusters...
+done (0)
+error: material maps/gm_templefalls/templefalls/!klobbwater1_-405_-712_-83 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_122_-832_259 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_-405_-712_-83 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_675_-699_169 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_-405_-712_-83 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_122_-832_259 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_45_17_-327 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_564_-767_-343 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_-503_-90_-343 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_715_5_-70 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_-71_831_-343 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_45_17_-327 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_-762_909_-343 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_-762_909_-343 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_-762_909_-343 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_-71_831_-343 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_-762_909_-343 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_-762_909_-343 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_916_824_-343 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_916_824_-343 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_403_823_-343 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_916_824_-343 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_916_824_-343 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_916_824_-343 doesn't have a $bottommaterial
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/space*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/space*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (416894 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1827 texinfos to 1372
+Reduced 85 texdatas to 78 (2467 bytes to 2023)
+Writing c:\gm_templefalls.bsp
+2 seconds elapsed
+
+
+
+materialPath: E:\Games\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\gm_templefalls.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\gm_templefalls.prt...Building visibility clusters...
+done (0)
+error: material maps/gm_templefalls/templefalls/!klobbwater1_-405_-712_-83 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_122_-832_259 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_-405_-712_-83 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_675_-699_169 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_-405_-712_-83 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_122_-832_259 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_45_17_-327 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_564_-767_-343 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_-503_-90_-343 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_715_5_-70 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_-71_831_-343 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_45_17_-327 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_-762_909_-343 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_-762_909_-343 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_-762_909_-343 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_-71_831_-343 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_-762_909_-343 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_-762_909_-343 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_916_824_-343 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_916_824_-343 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_403_823_-343 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_916_824_-343 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_916_824_-343 doesn't have a $bottommaterial
+error: material maps/gm_templefalls/templefalls/!klobbwater1_916_824_-343 doesn't have a $bottommaterial
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/space*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/space*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (416897 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1828 texinfos to 1369
+Reduced 85 texdatas to 78 (2470 bytes to 2023)
+Writing c:\gm_templefalls.bsp
+2 seconds elapsed
+
+
+
+4 threads
+reading c:\gm_templefalls.bsp
+reading c:\gm_templefalls.prt
+ 743 portalclusters
+2435 numportals
+0...1...2...3...4...5...6...7...8...9...100
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\gm_templefalls.bsp
+PREP OK
+No vis information, direct lighting only.
+5034 faces
+249808 square feet [35972424.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+61 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0156 sec>
+0
+
+
+materialPath: E:\Games\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\gm_templefalls.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Error! Variable "$surfaceprop" is multiply defined in material "templefalls/!klobbwater1"!
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\gm_templefalls.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/space*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/space*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (416911 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1849 texinfos to 1386
+Reduced 86 texdatas to 79 (2540 bytes to 2053)
+Writing c:\gm_templefalls.bsp
+2 seconds elapsed
+
+
+
+materialPath: E:\Games\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\gm_templefalls.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Error! Variable "$surfaceprop" is multiply defined in material "templefalls/!klobbwater1"!
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_node (98.44 1028.95 -415.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 640 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/space*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/space*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (416863 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1849 texinfos to 1395
+Reduced 86 texdatas to 79 (2537 bytes to 2050)
+Writing c:\gm_templefalls.bsp
+2 seconds elapsed
+
+
+
+4 threads
+reading c:\gm_templefalls.bsp
+reading c:\gm_templefalls.prt
+LoadPortals: couldn't read c:\gm_templefalls.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\gm_templefalls.bsp
+PREP OK
+No vis information, direct lighting only.
+4214 faces
+270949 square feet [39016760.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+61 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0226 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 105/4096         5040/196608   ( 2.6%) 
+brushes               1053/16384       12636/196608   ( 6.4%) 
+brushsides            6430/163840      51440/1310720  ( 3.9%) 
+planes                2344/65536       46880/1310720  ( 3.6%) 
+vertexes              6776/65536       81312/786432   (10.3%) 
+nodes                 2203/65536       70496/2097152  ( 3.4%) 
+texinfos              1395/12288      100440/884736   (11.4%) 
+texdata                 79/2048         2528/65536    ( 3.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4214/65536      235984/3670016  ( 6.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3606/65536      201936/3670016  ( 5.5%) 
+leaves                2309/65536       73888/2097152  ( 3.5%) 
+leaffaces             4877/65536        9754/131072   ( 7.4%) 
+leafbrushes           1349/65536        2698/131072   ( 2.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            34725/512000     138900/2048000  ( 6.8%) 
+edges                20283/256000      81132/1024000  ( 7.9%) 
+LDR worldlights         61/8192         5368/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips            242/32768        2420/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4311/65536        8622/131072   ( 6.6%) 
+cubemapsamples          19/1024          304/16384    ( 1.9%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      936208/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       70823/393216   (18.0%) 
+LDR ambient table     2309/65536        9236/262144   ( 3.5%) 
+HDR ambient table     2309/65536        9236/262144   ( 3.5%) 
+LDR leaf ambient      5034/65536      140952/1835008  ( 7.7%) 
+HDR leaf ambient      2309/65536       64652/1835008  ( 3.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]     2118642/0        ( 0.0%) 
+physics               [variable]      416863/4194304  ( 9.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 11865
+Writing c:\gm_templefalls.bsp
+26 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\gm_templefalls.bsp
+PREP OK
+No vis information, direct lighting only.
+4214 faces
+270949 square feet [39016760.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+61 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0202 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0
+
+
+materialPath: E:\Games\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\gm_templefalls.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Error! Variable "$surfaceprop" is multiply defined in material "templefalls/!klobbwater1"!
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_node (98.44 1028.95 -415.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 640 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/space*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/space*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (416863 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1849 texinfos to 1395
+Reduced 86 texdatas to 79 (2537 bytes to 2050)
+Writing c:\gm_templefalls.bsp
+2 seconds elapsed
+
+
+
+4 threads
+reading c:\gm_templefalls.bsp
+reading c:\gm_templefalls.prt
+LoadPortals: couldn't read c:\gm_templefalls.prt
+
+
+
+materialPath: E:\Games\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\gm_templefalls.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Error! Variable "$surfaceprop" is multiply defined in material "templefalls/!klobbwater1"!
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 640 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\gm_templefalls.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/space*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/space*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (418959 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1852 texinfos to 1395
+Reduced 86 texdatas to 79 (2537 bytes to 2050)
+Writing c:\gm_templefalls.bsp
+2 seconds elapsed
+
+
+
+4 threads
+reading c:\gm_templefalls.bsp
+reading c:\gm_templefalls.prt
+  95 portalclusters
+ 218 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 3733
+Average clusters visible: 39
+Building PAS...
+Average clusters audible: 89
+visdatasize:3080  compressed from 3040
+writing c:\gm_templefalls.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\gm_templefalls.bsp
+PREP OK
+4210 faces
+270949 square feet [39016760.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4210 patches before subdivision
+39336 patches after subdivision
+61 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5384214, max 659
+transfer lists:  41.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(76512, 34502, 3359)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10505, 2573, 110)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1517, 202, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(221, 16, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(32, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0233 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 105/4096         5040/196608   ( 2.6%) 
+brushes               1059/16384       12708/196608   ( 6.5%) 
+brushsides            6466/163840      51728/1310720  ( 3.9%) 
+planes                2370/65536       47400/1310720  ( 3.6%) 
+vertexes              6849/65536       82188/786432   (10.5%) 
+nodes                 2221/65536       71072/2097152  ( 3.4%) 
+texinfos              1395/12288      100440/884736   (11.4%) 
+texdata                 79/2048         2528/65536    ( 3.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4210/65536      235760/3670016  ( 6.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3601/65536      201656/3670016  ( 5.5%) 
+leaves                2327/65536       74464/2097152  ( 3.6%) 
+leaffaces             4874/65536        9748/131072   ( 7.4%) 
+leafbrushes           1430/65536        2860/131072   ( 2.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            34674/512000     138696/2048000  ( 6.8%) 
+edges                20247/256000      80988/1024000  ( 7.9%) 
+LDR worldlights         61/8192         5368/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips            240/32768        2400/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4287/65536        8574/131072   ( 6.5%) 
+cubemapsamples          19/1024          304/16384    ( 1.9%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      935456/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3080/16777216 ( 0.0%) 
+entdata               [variable]       70823/393216   (18.0%) 
+LDR ambient table     2327/65536        9308/262144   ( 3.6%) 
+HDR ambient table     2327/65536        9308/262144   ( 3.6%) 
+LDR leaf ambient      4423/65536      123844/1835008  ( 6.7%) 
+HDR leaf ambient      2327/65536       65156/1835008  ( 3.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]     2118642/0        ( 0.0%) 
+physics               [variable]      418959/4194304  (10.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 11842
+Writing c:\gm_templefalls.bsp
+34 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\gm_templefalls.bsp
+PREP OK
+4210 faces
+270949 square feet [39016760.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4210 patches before subdivision
+39336 patches after subdivision
+61 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5384214, max 659
+transfer lists:  41.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(76511, 34502, 3359)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10505, 2573, 110)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1517, 202, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(221, 16, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(32, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0200 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 105/4096         5040/196608   ( 2.6%) 
+brushes               1059/16384       12708/196608   ( 6.5%) 
+brushsides            6466/163840      51728/1310720  ( 3.9%) 
+planes                2370/65536       47400/1310720  ( 3.6%) 
+vertexes              6849/65536       82188/786432   (10.5%) 
+nodes                 2221/65536       71072/2097152  ( 3.4%) 
+texinfos              1395/12288      100440/884736   (11.4%) 
+texdata                 79/2048         2528/65536    ( 3.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4210/65536      235760/3670016  ( 6.4%) 
+hdr faces             4210/65536      235760/3670016  ( 6.4%) 
+origfaces             3601/65536      201656/3670016  ( 5.5%) 
+leaves                2327/65536       74464/2097152  ( 3.6%) 
+leaffaces             4874/65536        9748/131072   ( 7.4%) 
+leafbrushes           1430/65536        2860/131072   ( 2.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            34674/512000     138696/2048000  ( 6.8%) 
+edges                20247/256000      80988/1024000  ( 7.9%) 
+LDR worldlights         61/8192         5368/720896   ( 0.7%) 
+HDR worldlights         61/8192         5368/720896   ( 0.7%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips            240/32768        2400/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4287/65536        8574/131072   ( 6.5%) 
+cubemapsamples          19/1024          304/16384    ( 1.9%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      935456/0        ( 0.0%) 
+HDR lightdata         [variable]      935456/0        ( 0.0%) 
+visdata               [variable]        3080/16777216 ( 0.0%) 
+entdata               [variable]       70823/393216   (18.0%) 
+LDR ambient table     2327/65536        9308/262144   ( 3.6%) 
+HDR ambient table     2327/65536        9308/262144   ( 3.6%) 
+LDR leaf ambient      4423/65536      123844/1835008  ( 6.7%) 
+HDR leaf ambient      4421/65536      123788/1835008  ( 6.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]     2118642/0        ( 0.0%) 
+physics               [variable]      418959/4194304  (10.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 11842
+Writing c:\gm_templefalls.bsp
+34 seconds elapsed
+
+
+
+materialPath: E:\Games\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\gm_templefalls.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Error! Variable "$surfaceprop" is multiply defined in material "templefalls/!klobbwater1"!
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 640 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\gm_templefalls.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/space*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/space*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (418743 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1817 texinfos to 1369
+Reduced 86 texdatas to 78 (2556 bytes to 2009)
+Writing c:\gm_templefalls.bsp
+3 seconds elapsed
+
+
+
+4 threads
+reading c:\gm_templefalls.bsp
+reading c:\gm_templefalls.prt
+ 171 portalclusters
+ 483 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 12441
+Average clusters visible: 72
+Building PAS...
+Average clusters audible: 131
+visdatasize:9262  compressed from 8208
+writing c:\gm_templefalls.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\gm_templefalls.bsp
+PREP OK
+4217 faces
+259575 square feet [37378856.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4217 patches before subdivision
+37997 patches after subdivision
+61 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5544004, max 671
+transfer lists:  42.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(75507, 33975, 3321)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10487, 2596, 115)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1531, 208, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(225, 17, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(33, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0164 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 100/4096         4800/196608   ( 2.4%) 
+brushes               1058/16384       12696/196608   ( 6.5%) 
+brushsides            6460/163840      51680/1310720  ( 3.9%) 
+planes                2350/65536       47000/1310720  ( 3.6%) 
+vertexes              6951/65536       83412/786432   (10.6%) 
+nodes                 2289/65536       73248/2097152  ( 3.5%) 
+texinfos              1369/12288       98568/884736   (11.1%) 
+texdata                 78/2048         2496/65536    ( 3.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4217/65536      236152/3670016  ( 6.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3560/65536      199360/3670016  ( 5.4%) 
+leaves                2390/65536       76480/2097152  ( 3.6%) 
+leaffaces             5161/65536       10322/131072   ( 7.9%) 
+leafbrushes           1657/65536        3314/131072   ( 2.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            34578/512000     138312/2048000  ( 6.8%) 
+edges                20290/256000      81160/1024000  ( 7.9%) 
+LDR worldlights         61/8192         5368/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips            263/32768        2630/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4629/65536        9258/131072   ( 7.1%) 
+cubemapsamples          19/1024          304/16384    ( 1.9%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      903072/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        9262/16777216 ( 0.1%) 
+entdata               [variable]       69715/393216   (17.7%) 
+LDR ambient table     2390/65536        9560/262144   ( 3.6%) 
+HDR ambient table     2390/65536        9560/262144   ( 3.6%) 
+LDR leaf ambient      4881/65536      136668/1835008  ( 7.4%) 
+HDR leaf ambient      2390/65536       66920/1835008  ( 3.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]     2118235/0        ( 0.0%) 
+physics               [variable]      418743/4194304  (10.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 11896
+Writing c:\gm_templefalls.bsp
+31 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\gm_templefalls.bsp
+PREP OK
+4217 faces
+259575 square feet [37378856.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4217 patches before subdivision
+37997 patches after subdivision
+61 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5544004, max 671
+transfer lists:  42.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(75507, 33975, 3321)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10487, 2596, 115)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1531, 208, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(225, 17, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(33, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0225 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 100/4096         4800/196608   ( 2.4%) 
+brushes               1058/16384       12696/196608   ( 6.5%) 
+brushsides            6460/163840      51680/1310720  ( 3.9%) 
+planes                2350/65536       47000/1310720  ( 3.6%) 
+vertexes              6951/65536       83412/786432   (10.6%) 
+nodes                 2289/65536       73248/2097152  ( 3.5%) 
+texinfos              1369/12288       98568/884736   (11.1%) 
+texdata                 78/2048         2496/65536    ( 3.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4217/65536      236152/3670016  ( 6.4%) 
+hdr faces             4217/65536      236152/3670016  ( 6.4%) 
+origfaces             3560/65536      199360/3670016  ( 5.4%) 
+leaves                2390/65536       76480/2097152  ( 3.6%) 
+leaffaces             5161/65536       10322/131072   ( 7.9%) 
+leafbrushes           1657/65536        3314/131072   ( 2.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            34578/512000     138312/2048000  ( 6.8%) 
+edges                20290/256000      81160/1024000  ( 7.9%) 
+LDR worldlights         61/8192         5368/720896   ( 0.7%) 
+HDR worldlights         61/8192         5368/720896   ( 0.7%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips            263/32768        2630/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4629/65536        9258/131072   ( 7.1%) 
+cubemapsamples          19/1024          304/16384    ( 1.9%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      903072/0        ( 0.0%) 
+HDR lightdata         [variable]      903072/0        ( 0.0%) 
+visdata               [variable]        9262/16777216 ( 0.1%) 
+entdata               [variable]       69715/393216   (17.7%) 
+LDR ambient table     2390/65536        9560/262144   ( 3.6%) 
+HDR ambient table     2390/65536        9560/262144   ( 3.6%) 
+LDR leaf ambient      4881/65536      136668/1835008  ( 7.4%) 
+HDR leaf ambient      4879/65536      136612/1835008  ( 7.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]     2118235/0        ( 0.0%) 
+physics               [variable]      418743/4194304  (10.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 11896
+Writing c:\gm_templefalls.bsp
+31 seconds elapsed
+
+
+
+materialPath: E:\Games\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\gm_templefalls.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Error! Variable "$surfaceprop" is multiply defined in material "templefalls/!klobbwater1"!
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 640 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\gm_templefalls.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/space*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/space*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (419135 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1815 texinfos to 1367
+Reduced 85 texdatas to 77 (2490 bytes to 1943)
+Writing c:\gm_templefalls.bsp
+2 seconds elapsed
+
+
+
+4 threads
+reading c:\gm_templefalls.bsp
+reading c:\gm_templefalls.prt
+ 159 portalclusters
+ 446 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 10823
+Average clusters visible: 68
+Building PAS...
+Average clusters audible: 123
+visdatasize:7706  compressed from 7632
+writing c:\gm_templefalls.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\gm_templefalls.bsp
+PREP OK
+4217 faces
+259342 square feet [37345368.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4217 patches before subdivision
+37203 patches after subdivision
+61 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5368205, max 678
+transfer lists:  41.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(74434, 33477, 3260)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10324, 2553, 113)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1509, 205, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(221, 16, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(33, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0168 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 100/4096         4800/196608   ( 2.4%) 
+brushes               1059/16384       12708/196608   ( 6.5%) 
+brushsides            6466/163840      51728/1310720  ( 3.9%) 
+planes                2348/65536       46960/1310720  ( 3.6%) 
+vertexes              6945/65536       83340/786432   (10.6%) 
+nodes                 2259/65536       72288/2097152  ( 3.4%) 
+texinfos              1367/12288       98424/884736   (11.1%) 
+texdata                 77/2048         2464/65536    ( 3.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4217/65536      236152/3670016  ( 6.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3559/65536      199304/3670016  ( 5.4%) 
+leaves                2360/65536       75520/2097152  ( 3.6%) 
+leaffaces             5081/65536       10162/131072   ( 7.8%) 
+leafbrushes           1620/65536        3240/131072   ( 2.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            34616/512000     138464/2048000  ( 6.8%) 
+edges                20323/256000      81292/1024000  ( 7.9%) 
+LDR worldlights         61/8192         5368/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips            274/32768        2740/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4821/65536        9642/131072   ( 7.4%) 
+cubemapsamples          19/1024          304/16384    ( 1.9%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      902936/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        7706/16777216 ( 0.0%) 
+entdata               [variable]       69715/393216   (17.7%) 
+LDR ambient table     2360/65536        9440/262144   ( 3.6%) 
+HDR ambient table     2360/65536        9440/262144   ( 3.6%) 
+LDR leaf ambient      4779/65536      133812/1835008  ( 7.3%) 
+HDR leaf ambient      2360/65536       66080/1835008  ( 3.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]     2117831/0        ( 0.0%) 
+physics               [variable]      419135/4194304  (10.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 11938
+Writing c:\gm_templefalls.bsp
+32 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\gm_templefalls.bsp
+PREP OK
+4217 faces
+259342 square feet [37345368.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4217 patches before subdivision
+37203 patches after subdivision
+61 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5368205, max 678
+transfer lists:  41.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(74435, 33477, 3260)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10324, 2553, 113)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1509, 205, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(221, 16, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(33, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0210 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 100/4096         4800/196608   ( 2.4%) 
+brushes               1059/16384       12708/196608   ( 6.5%) 
+brushsides            6466/163840      51728/1310720  ( 3.9%) 
+planes                2348/65536       46960/1310720  ( 3.6%) 
+vertexes              6945/65536       83340/786432   (10.6%) 
+nodes                 2259/65536       72288/2097152  ( 3.4%) 
+texinfos              1367/12288       98424/884736   (11.1%) 
+texdata                 77/2048         2464/65536    ( 3.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4217/65536      236152/3670016  ( 6.4%) 
+hdr faces             4217/65536      236152/3670016  ( 6.4%) 
+origfaces             3559/65536      199304/3670016  ( 5.4%) 
+leaves                2360/65536       75520/2097152  ( 3.6%) 
+leaffaces             5081/65536       10162/131072   ( 7.8%) 
+leafbrushes           1620/65536        3240/131072   ( 2.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            34616/512000     138464/2048000  ( 6.8%) 
+edges                20323/256000      81292/1024000  ( 7.9%) 
+LDR worldlights         61/8192         5368/720896   ( 0.7%) 
+HDR worldlights         61/8192         5368/720896   ( 0.7%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips            274/32768        2740/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4821/65536        9642/131072   ( 7.4%) 
+cubemapsamples          19/1024          304/16384    ( 1.9%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      902936/0        ( 0.0%) 
+HDR lightdata         [variable]      902936/0        ( 0.0%) 
+visdata               [variable]        7706/16777216 ( 0.0%) 
+entdata               [variable]       69715/393216   (17.7%) 
+LDR ambient table     2360/65536        9440/262144   ( 3.6%) 
+HDR ambient table     2360/65536        9440/262144   ( 3.6%) 
+LDR leaf ambient      4779/65536      133812/1835008  ( 7.3%) 
+HDR leaf ambient      4779/65536      133812/1835008  ( 7.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]     2117831/0        ( 0.0%) 
+physics               [variable]      419135/4194304  (10.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 11938
+Writing c:\gm_templefalls.bsp
+31 seconds elapsed
+
+
+
+materialPath: E:\Games\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\gm_templefalls.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Error! Variable "$surfaceprop" is multiply defined in material "templefalls/!klobbwater1"!
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 640 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\gm_templefalls.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/space*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/space*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (411396 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1803 texinfos to 1343
+Reduced 84 texdatas to 76 (2475 bytes to 1928)
+Writing c:\gm_templefalls.bsp
+3 seconds elapsed
+
+
+
+4 threads
+reading c:\gm_templefalls.bsp
+reading c:\gm_templefalls.prt
+ 159 portalclusters
+ 446 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 10823
+Average clusters visible: 68
+Building PAS...
+Average clusters audible: 123
+visdatasize:7706  compressed from 7632
+writing c:\gm_templefalls.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\gm_templefalls.bsp
+PREP OK
+4123 faces
+254827 square feet [36695208.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4123 patches before subdivision
+35937 patches after subdivision
+61 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5229224, max 678
+transfer lists:  39.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(73120, 32792, 3203)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10150, 2504, 111)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1483, 201, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(218, 16, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(32, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0165 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  96/4096         4608/196608   ( 2.3%) 
+brushes               1043/16384       12516/196608   ( 6.4%) 
+brushsides            6370/163840      50960/1310720  ( 3.9%) 
+planes                2324/65536       46480/1310720  ( 3.5%) 
+vertexes              6849/65536       82188/786432   (10.5%) 
+nodes                 2203/65536       70496/2097152  ( 3.4%) 
+texinfos              1343/12288       96696/884736   (10.9%) 
+texdata                 76/2048         2432/65536    ( 3.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4123/65536      230888/3670016  ( 6.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3465/65536      194040/3670016  ( 5.3%) 
+leaves                2300/65536       73600/2097152  ( 3.5%) 
+leaffaces             4987/65536        9974/131072   ( 7.6%) 
+leafbrushes           1604/65536        3208/131072   ( 2.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            33832/512000     135328/2048000  ( 6.6%) 
+edges                19915/256000      79660/1024000  ( 7.8%) 
+LDR worldlights         61/8192         5368/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips            274/32768        2740/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4821/65536        9642/131072   ( 7.4%) 
+cubemapsamples          19/1024          304/16384    ( 1.9%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      881912/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        7706/16777216 ( 0.0%) 
+entdata               [variable]       69132/393216   (17.6%) 
+LDR ambient table     2300/65536        9200/262144   ( 3.5%) 
+HDR ambient table     2300/65536        9200/262144   ( 3.5%) 
+LDR leaf ambient      4699/65536      131572/1835008  ( 7.2%) 
+HDR leaf ambient      2300/65536       64400/1835008  ( 3.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]     2117831/0        ( 0.0%) 
+physics               [variable]      411396/4194304  ( 9.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 11718
+Writing c:\gm_templefalls.bsp
+33 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\gm_templefalls.bsp
+PREP OK
+4123 faces
+254827 square feet [36695208.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4123 patches before subdivision
+35937 patches after subdivision
+61 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5229224, max 678
+transfer lists:  39.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(73120, 32792, 3203)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10150, 2504, 111)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1483, 201, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(218, 16, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(32, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0224 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  96/4096         4608/196608   ( 2.3%) 
+brushes               1043/16384       12516/196608   ( 6.4%) 
+brushsides            6370/163840      50960/1310720  ( 3.9%) 
+planes                2324/65536       46480/1310720  ( 3.5%) 
+vertexes              6849/65536       82188/786432   (10.5%) 
+nodes                 2203/65536       70496/2097152  ( 3.4%) 
+texinfos              1343/12288       96696/884736   (10.9%) 
+texdata                 76/2048         2432/65536    ( 3.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4123/65536      230888/3670016  ( 6.3%) 
+hdr faces             4123/65536      230888/3670016  ( 6.3%) 
+origfaces             3465/65536      194040/3670016  ( 5.3%) 
+leaves                2300/65536       73600/2097152  ( 3.5%) 
+leaffaces             4987/65536        9974/131072   ( 7.6%) 
+leafbrushes           1604/65536        3208/131072   ( 2.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            33832/512000     135328/2048000  ( 6.6%) 
+edges                19915/256000      79660/1024000  ( 7.8%) 
+LDR worldlights         61/8192         5368/720896   ( 0.7%) 
+HDR worldlights         61/8192         5368/720896   ( 0.7%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips            274/32768        2740/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4821/65536        9642/131072   ( 7.4%) 
+cubemapsamples          19/1024          304/16384    ( 1.9%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      881912/0        ( 0.0%) 
+HDR lightdata         [variable]      881912/0        ( 0.0%) 
+visdata               [variable]        7706/16777216 ( 0.0%) 
+entdata               [variable]       69132/393216   (17.6%) 
+LDR ambient table     2300/65536        9200/262144   ( 3.5%) 
+HDR ambient table     2300/65536        9200/262144   ( 3.5%) 
+LDR leaf ambient      4699/65536      131572/1835008  ( 7.2%) 
+HDR leaf ambient      4699/65536      131572/1835008  ( 7.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]     2117831/0        ( 0.0%) 
+physics               [variable]      411396/4194304  ( 9.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 11718
+Writing c:\gm_templefalls.bsp
+31 seconds elapsed
+
+
+
+materialPath: E:\Games\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\gm_templefalls.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Error! Variable "$surfaceprop" is multiply defined in material "templefalls/!klobbwater1"!
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 640 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\gm_templefalls.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/space*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/space*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (411396 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1803 texinfos to 1343
+Reduced 84 texdatas to 76 (2475 bytes to 1928)
+Writing c:\gm_templefalls.bsp
+3 seconds elapsed
+
+
+
+4 threads
+reading c:\gm_templefalls.bsp
+reading c:\gm_templefalls.prt
+ 159 portalclusters
+ 446 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 10823
+Average clusters visible: 68
+Building PAS...
+Average clusters audible: 123
+visdatasize:7706  compressed from 7632
+writing c:\gm_templefalls.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\gm_templefalls.bsp
+PREP OK
+4123 faces
+254827 square feet [36695208.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4123 patches before subdivision
+35937 patches after subdivision
+61 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5229224, max 678
+transfer lists:  39.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(73120, 32792, 3203)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10151, 2504, 111)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1483, 201, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(218, 16, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(32, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0142 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  96/4096         4608/196608   ( 2.3%) 
+brushes               1043/16384       12516/196608   ( 6.4%) 
+brushsides            6370/163840      50960/1310720  ( 3.9%) 
+planes                2324/65536       46480/1310720  ( 3.5%) 
+vertexes              6849/65536       82188/786432   (10.5%) 
+nodes                 2203/65536       70496/2097152  ( 3.4%) 
+texinfos              1343/12288       96696/884736   (10.9%) 
+texdata                 76/2048         2432/65536    ( 3.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4123/65536      230888/3670016  ( 6.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3465/65536      194040/3670016  ( 5.3%) 
+leaves                2300/65536       73600/2097152  ( 3.5%) 
+leaffaces             4987/65536        9974/131072   ( 7.6%) 
+leafbrushes           1604/65536        3208/131072   ( 2.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            33832/512000     135328/2048000  ( 6.6%) 
+edges                19915/256000      79660/1024000  ( 7.8%) 
+LDR worldlights         61/8192         5368/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips            274/32768        2740/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4821/65536        9642/131072   ( 7.4%) 
+cubemapsamples          19/1024          304/16384    ( 1.9%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      881912/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        7706/16777216 ( 0.0%) 
+entdata               [variable]       69132/393216   (17.6%) 
+LDR ambient table     2300/65536        9200/262144   ( 3.5%) 
+HDR ambient table     2300/65536        9200/262144   ( 3.5%) 
+LDR leaf ambient      4697/65536      131516/1835008  ( 7.2%) 
+HDR leaf ambient      2300/65536       64400/1835008  ( 3.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]     2117831/0        ( 0.0%) 
+physics               [variable]      411396/4194304  ( 9.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 11718
+Writing c:\gm_templefalls.bsp
+32 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\gm_templefalls.bsp
+PREP OK
+4123 faces
+254827 square feet [36695208.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4123 patches before subdivision
+35937 patches after subdivision
+61 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5229224, max 678
+transfer lists:  39.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(73120, 32792, 3203)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10151, 2504, 111)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1483, 201, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(218, 16, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(32, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0222 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  96/4096         4608/196608   ( 2.3%) 
+brushes               1043/16384       12516/196608   ( 6.4%) 
+brushsides            6370/163840      50960/1310720  ( 3.9%) 
+planes                2324/65536       46480/1310720  ( 3.5%) 
+vertexes              6849/65536       82188/786432   (10.5%) 
+nodes                 2203/65536       70496/2097152  ( 3.4%) 
+texinfos              1343/12288       96696/884736   (10.9%) 
+texdata                 76/2048         2432/65536    ( 3.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4123/65536      230888/3670016  ( 6.3%) 
+hdr faces             4123/65536      230888/3670016  ( 6.3%) 
+origfaces             3465/65536      194040/3670016  ( 5.3%) 
+leaves                2300/65536       73600/2097152  ( 3.5%) 
+leaffaces             4987/65536        9974/131072   ( 7.6%) 
+leafbrushes           1604/65536        3208/131072   ( 2.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            33832/512000     135328/2048000  ( 6.6%) 
+edges                19915/256000      79660/1024000  ( 7.8%) 
+LDR worldlights         61/8192         5368/720896   ( 0.7%) 
+HDR worldlights         61/8192         5368/720896   ( 0.7%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips            274/32768        2740/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4821/65536        9642/131072   ( 7.4%) 
+cubemapsamples          19/1024          304/16384    ( 1.9%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      881912/0        ( 0.0%) 
+HDR lightdata         [variable]      881912/0        ( 0.0%) 
+visdata               [variable]        7706/16777216 ( 0.0%) 
+entdata               [variable]       69132/393216   (17.6%) 
+LDR ambient table     2300/65536        9200/262144   ( 3.5%) 
+HDR ambient table     2300/65536        9200/262144   ( 3.5%) 
+LDR leaf ambient      4697/65536      131516/1835008  ( 7.2%) 
+HDR leaf ambient      4697/65536      131516/1835008  ( 7.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]     2117831/0        ( 0.0%) 
+physics               [variable]      411396/4194304  ( 9.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 11718
+Writing c:\gm_templefalls.bsp
+31 seconds elapsed

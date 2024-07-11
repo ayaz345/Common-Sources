@@ -1,0 +1,9 @@
+// Created by Crowbar 0.74
+version 1
+nodes
+  0 "Colt M4A1" -1
+end
+skeleton
+  time 0
+    0 -0.669922 -3.410156 1.765625 1.824686 1.481028 0.236213
+end

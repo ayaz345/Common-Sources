@@ -1,0 +1,348 @@
+
+Half-Life MDL Decompiler 1.2
+2003, Kratisto. Based on code from Valve's HL SDK.
+--------------------------------------------------
+MDL: hostage.mdl
+WARNING: Sequence name "crouch_idle3" is repeated 2 times.
+WARNING: Added numeric suffix to repeated sequence name(s).
+QC Script: .\hostage\hostage.qc
+Reference: .\hostage\us_gal.smd
+Reference: .\hostage\us_gal-head01.smd
+Reference: .\hostage\us_gal-head02.smd
+Reference: .\hostage\us_gal-head03.smd
+Reference: .\hostage\us_gal-head04.smd
+Sequence: .\hostage\walk.smd
+Sequence: .\hostage\walk_scared.smd
+Sequence: .\hostage\run.smd
+Sequence: .\hostage\run1.smd
+Sequence: .\hostage\run2.smd
+Sequence: .\hostage\180_Left.smd
+Sequence: .\hostage\flinch.smd
+Sequence: .\hostage\flinch1.smd
+Sequence: .\hostage\laflinch.smd
+Sequence: .\hostage\raflinch.smd
+Sequence: .\hostage\llflinch.smd
+Sequence: .\hostage\rlflinch.smd
+Sequence: .\hostage\idle1.smd
+Sequence: .\hostage\idle3.smd
+Sequence: .\hostage\idle4.smd
+Sequence: .\hostage\idle5.smd
+Sequence: .\hostage\idle6.smd
+Sequence: .\hostage\idle7.smd
+Sequence: .\hostage\crouchstand.smd
+Sequence: .\hostage\crouch_idle.smd
+Sequence: .\hostage\crouch_idle2.smd
+Sequence: .\hostage\crouch_idle3_1.smd
+Sequence: .\hostage\crouch_idle3_2.smd
+Sequence: .\hostage\panic.smd
+Sequence: .\hostage\fear1.smd
+Sequence: .\hostage\fear2.smd
+Sequence: .\hostage\eye_wipe.smd
+Sequence: .\hostage\diesimple.smd
+Sequence: .\hostage\dieforward.smd
+Sequence: .\hostage\dieforward1.smd
+Sequence: .\hostage\diebackward.smd
+Sequence: .\hostage\headshot.smd
+Sequence: .\hostage\gutshot.smd
+Sequence: .\hostage\lying_on_back.smd
+Sequence: .\hostage\lying_on_stomach.smd
+Sequence: .\hostage\dead_sitting.smd
+Sequence: .\hostage\dead_table1.smd
+Sequence: .\hostage\dead_table2.smd
+Sequence: .\hostage\dead_table3.smd
+Sequence: .\hostage\console.smd
+Sequence: .\hostage\checktie.smd
+Sequence: .\hostage\pondering.smd
+Sequence: .\hostage\pondering2.smd
+Sequence: .\hostage\pondering3.smd
+Sequence: .\hostage\pause.smd
+Sequence: .\hostage\no.smd
+Sequence: .\hostage\push_button.smd
+Sequence: .\hostage\converse1.smd
+Sequence: .\hostage\converse2.smd
+Sequence: .\hostage\talkleft.smd
+Sequence: .\hostage\talkright.smd
+Sequence: .\hostage\deskidle.smd
+Sequence: .\hostage\sitlookleft.smd
+Sequence: .\hostage\sitlookright.smd
+Sequence: .\hostage\sitscared.smd
+Sequence: .\hostage\sitting2.smd
+Sequence: .\hostage\sitting3.smd
+Sequence: .\hostage\training_typing_point.smd
+Sequence: .\hostage\training_typing_a.smd
+Sequence: .\hostage\training_typing_b.smd
+Sequence: .\hostage\idle_wallpain.smd
+Sequence: .\hostage\training_sit.smd
+Sequence: .\hostage\wave_frantic.smd
+Sequence: .\hostage\point.smd
+Sequence: .\hostage\point2.smd
+Sequence: .\hostage\lap-female0-68.smd
+Sequence: .\hostage\lap-female069-162.smd
+Sequence: .\hostage\lap-female163-280.smd
+Sequence: .\hostage\lap-female281-373.smd
+Sequence: .\hostage\lap-female374-457.smd
+Sequence: .\hostage\lap-female458-539.smd
+Sequence: .\hostage\lap-female540-654.smd
+Sequence: .\hostage\lap-female655-735.smd
+Sequence: .\hostage\idle_scared.smd
+Sequence: .\hostage\fence_pose.smd
+Sequence: .\hostage\fence_pose_idle.smd
+Sequence: .\hostage\shopowner-hiding-idle.smd
+Sequence: .\hostage\shopowner-hiding01.smd
+Sequence: .\hostage\shopowner-hiding02.smd
+Sequence: .\hostage\sit_up.smd
+Sequence: .\hostage\sit_up_idle.smd
+Sequence: .\hostage\crouch.smd
+Sequence: .\hostage\bow.smd
+Sequence: .\hostage\lying_truth1.smd
+Sequence: .\hostage\Couple_female_idle.smd
+Sequence: .\hostage\Couple_female_startled.smd
+Sequence: .\hostage\Couple_female_scared.smd
+Sequence: .\hostage\Couple_female_startled_idle.smd
+Sequence: .\hostage\Schoolgirl1_idle.smd
+Sequence: .\hostage\Schoolgirl1_laugh.smd
+Sequence: .\hostage\Schoolgirl1_startled.smd
+Sequence: .\hostage\Schoolgirl1_startled_idle.smd
+Sequence: .\hostage\Schoolgirl2_idle.smd
+Sequence: .\hostage\Schoolgirl2_laugh.smd
+Sequence: .\hostage\Schoolgirl2_startled.smd
+Sequence: .\hostage\Schoolgirl2_startled_idle.smd
+Sequence: .\hostage\cower01.smd
+Sequence: .\hostage\cower02.smd
+Sequence: .\hostage\cower03.smd
+Sequence: .\hostage\cower04.smd
+Sequence: .\hostage\death_sit_railcar.smd
+Sequence: .\hostage\take_sgirl-g1.smd
+Sequence: .\hostage\take_sgirl-g2.smd
+Sequence: .\hostage\take_sgirl2-g.smd
+Sequence: .\hostage\scared_idle2.smd
+Sequence: .\hostage\scared_idle1.smd
+Sequence: .\hostage\shake_player.smd
+Sequence: .\hostage\fastline_rescue.smd
+Sequence: .\hostage\fastlline_rescue2.smd
+Sequence: .\hostage\fastline_rescue_idle.smd
+Sequence: .\hostage\FL-intro_girl_slap.smd
+Sequence: .\hostage\FL-intro_girl_taken.smd
+Sequence: .\hostage\hank_VIP-schoolgirl.smd
+Sequence: .\hostage\hank_VIP-usgirl.smd
+Sequence: .\hostage\hank_VIP-usgirl-dead.smd
+Sequence: .\hostage\hostage_dragged.smd
+Sequence: .\hostage\fg_rescue-female.smd
+Sequence: .\hostage\idle_rescued.smd
+Texture: .\hostage\fhostagebody2.bmp
+Texture: .\hostage\fhostagehedblonde.bmp
+Texture: .\hostage\fheadUS.bmp
+Texture: .\hostage\fheadasian.bmp
+Texture: .\hostage\fheadlationo.bmp
+Texture: .\hostage\fhostagebody3.bmp
+Done.
+--------------------------------------------------
+
+Half-Life MDL Decompiler 1.2
+2003, Kratisto. Based on code from Valve's HL SDK.
+--------------------------------------------------
+MDL: hostage01.mdl
+ERROR: Cannot open sequence file hostage0101.mdl
+--------------------------------------------------
+
+Half-Life MDL Decompiler 1.2
+2003, Kratisto. Based on code from Valve's HL SDK.
+--------------------------------------------------
+MDL: hostage02.mdl
+ERROR: Cannot open sequence file hostage0201.mdl
+--------------------------------------------------
+
+Half-Life MDL Decompiler 1.2
+2003, Kratisto. Based on code from Valve's HL SDK.
+--------------------------------------------------
+MDL: hostage03.mdl
+ERROR: hostage03.mdl is not a main HL model file.
+--------------------------------------------------
+
+Half-Life MDL Decompiler 1.2
+2003, Kratisto. Based on code from Valve's HL SDK.
+--------------------------------------------------
+MDL: hostage04.mdl
+ERROR: hostage04.mdl is not a main HL model file.
+--------------------------------------------------
+
+Half-Life MDL Decompiler 1.2
+2003, Kratisto. Based on code from Valve's HL SDK.
+--------------------------------------------------
+MDL: hostage05.mdl
+ERROR: hostage05.mdl is not a main HL model file.
+--------------------------------------------------
+
+Half-Life MDL Decompiler 1.2
+2003, Kratisto. Based on code from Valve's HL SDK.
+--------------------------------------------------
+MDL: hostage06.mdl
+ERROR: hostage06.mdl is not a main HL model file.
+--------------------------------------------------
+
+Half-Life MDL Decompiler 1.2
+2003, Kratisto. Based on code from Valve's HL SDK.
+--------------------------------------------------
+MDL: hostage07.mdl
+ERROR: hostage07.mdl is not a main HL model file.
+--------------------------------------------------
+
+Half-Life MDL Decompiler 1.2
+2003, Kratisto. Based on code from Valve's HL SDK.
+--------------------------------------------------
+MDL: hostage08.mdl
+ERROR: hostage08.mdl is not a main HL model file.
+--------------------------------------------------
+
+Half-Life MDL Decompiler 1.2
+2003, Kratisto. Based on code from Valve's HL SDK.
+--------------------------------------------------
+MDL: scientist.mdl
+WARNING: Sequence name "crouch_idle3" is repeated 2 times.
+WARNING: Added numeric suffix to repeated sequence name(s).
+QC Script: .\scientist\scientist.qc
+Reference: .\scientist\us_gal.smd
+Reference: .\scientist\us_gal-head01.smd
+Reference: .\scientist\us_gal-head02.smd
+Reference: .\scientist\us_gal-head03.smd
+Reference: .\scientist\us_gal-head04.smd
+Sequence: .\scientist\walk.smd
+Sequence: .\scientist\walk_scared.smd
+Sequence: .\scientist\run.smd
+Sequence: .\scientist\run1.smd
+Sequence: .\scientist\run2.smd
+Sequence: .\scientist\180_Left.smd
+Sequence: .\scientist\flinch.smd
+Sequence: .\scientist\flinch1.smd
+Sequence: .\scientist\laflinch.smd
+Sequence: .\scientist\raflinch.smd
+Sequence: .\scientist\llflinch.smd
+Sequence: .\scientist\rlflinch.smd
+Sequence: .\scientist\idle1.smd
+Sequence: .\scientist\idle3.smd
+Sequence: .\scientist\idle4.smd
+Sequence: .\scientist\idle5.smd
+Sequence: .\scientist\idle6.smd
+Sequence: .\scientist\idle7.smd
+Sequence: .\scientist\crouchstand.smd
+Sequence: .\scientist\crouch_idle.smd
+Sequence: .\scientist\crouch_idle2.smd
+Sequence: .\scientist\crouch_idle3_1.smd
+Sequence: .\scientist\crouch_idle3_2.smd
+Sequence: .\scientist\panic.smd
+Sequence: .\scientist\fear1.smd
+Sequence: .\scientist\fear2.smd
+Sequence: .\scientist\eye_wipe.smd
+Sequence: .\scientist\diesimple.smd
+Sequence: .\scientist\dieforward.smd
+Sequence: .\scientist\dieforward1.smd
+Sequence: .\scientist\diebackward.smd
+Sequence: .\scientist\headshot.smd
+Sequence: .\scientist\gutshot.smd
+Sequence: .\scientist\lying_on_back.smd
+Sequence: .\scientist\lying_on_stomach.smd
+Sequence: .\scientist\dead_sitting.smd
+Sequence: .\scientist\dead_table1.smd
+Sequence: .\scientist\dead_table2.smd
+Sequence: .\scientist\dead_table3.smd
+Sequence: .\scientist\console.smd
+Sequence: .\scientist\checktie.smd
+Sequence: .\scientist\pondering.smd
+Sequence: .\scientist\pondering2.smd
+Sequence: .\scientist\pondering3.smd
+Sequence: .\scientist\pause.smd
+Sequence: .\scientist\no.smd
+Sequence: .\scientist\push_button.smd
+Sequence: .\scientist\converse1.smd
+Sequence: .\scientist\converse2.smd
+Sequence: .\scientist\talkleft.smd
+Sequence: .\scientist\talkright.smd
+Sequence: .\scientist\deskidle.smd
+Sequence: .\scientist\sitlookleft.smd
+Sequence: .\scientist\sitlookright.smd
+Sequence: .\scientist\sitscared.smd
+Sequence: .\scientist\sitting2.smd
+Sequence: .\scientist\sitting3.smd
+Sequence: .\scientist\training_typing_point.smd
+Sequence: .\scientist\training_typing_a.smd
+Sequence: .\scientist\training_typing_b.smd
+Sequence: .\scientist\idle_wallpain.smd
+Sequence: .\scientist\training_sit.smd
+Sequence: .\scientist\wave_frantic.smd
+Sequence: .\scientist\point.smd
+Sequence: .\scientist\point2.smd
+Sequence: .\scientist\lap-female0-68.smd
+Sequence: .\scientist\lap-female069-162.smd
+Sequence: .\scientist\lap-female163-280.smd
+Sequence: .\scientist\lap-female281-373.smd
+Sequence: .\scientist\lap-female374-457.smd
+Sequence: .\scientist\lap-female458-539.smd
+Sequence: .\scientist\lap-female540-654.smd
+Sequence: .\scientist\lap-female655-735.smd
+Sequence: .\scientist\idle_scared.smd
+Sequence: .\scientist\fence_pose.smd
+Sequence: .\scientist\fence_pose_idle.smd
+Sequence: .\scientist\shopowner-hiding-idle.smd
+Sequence: .\scientist\shopowner-hiding01.smd
+Sequence: .\scientist\shopowner-hiding02.smd
+Sequence: .\scientist\sit_up.smd
+Sequence: .\scientist\sit_up_idle.smd
+Sequence: .\scientist\crouch.smd
+Sequence: .\scientist\bow.smd
+Sequence: .\scientist\lying_truth1.smd
+Sequence: .\scientist\Couple_female_idle.smd
+Sequence: .\scientist\Couple_female_startled.smd
+Sequence: .\scientist\Couple_female_scared.smd
+Sequence: .\scientist\Couple_female_startled_idle.smd
+Sequence: .\scientist\Schoolgirl1_idle.smd
+Sequence: .\scientist\Schoolgirl1_laugh.smd
+Sequence: .\scientist\Schoolgirl1_startled.smd
+Sequence: .\scientist\Schoolgirl1_startled_idle.smd
+Sequence: .\scientist\Schoolgirl2_idle.smd
+Sequence: .\scientist\Schoolgirl2_laugh.smd
+Sequence: .\scientist\Schoolgirl2_startled.smd
+Sequence: .\scientist\Schoolgirl2_startled_idle.smd
+Sequence: .\scientist\cower01.smd
+Sequence: .\scientist\cower02.smd
+Sequence: .\scientist\cower03.smd
+Sequence: .\scientist\cower04.smd
+Sequence: .\scientist\death_sit_railcar.smd
+Sequence: .\scientist\take_sgirl-g1.smd
+Sequence: .\scientist\take_sgirl-g2.smd
+Sequence: .\scientist\take_sgirl2-g.smd
+Sequence: .\scientist\scared_idle2.smd
+Sequence: .\scientist\scared_idle1.smd
+Sequence: .\scientist\shake_player.smd
+Sequence: .\scientist\fastline_rescue.smd
+Sequence: .\scientist\fastlline_rescue2.smd
+Sequence: .\scientist\fastline_rescue_idle.smd
+Sequence: .\scientist\FL-intro_girl_slap.smd
+Sequence: .\scientist\FL-intro_girl_taken.smd
+Sequence: .\scientist\hank_VIP-schoolgirl.smd
+Sequence: .\scientist\hank_VIP-usgirl.smd
+Sequence: .\scientist\hank_VIP-usgirl-dead.smd
+Sequence: .\scientist\hostage_dragged.smd
+Sequence: .\scientist\fg_rescue-female.smd
+Sequence: .\scientist\idle_rescued.smd
+Texture: .\scientist\fhostagebody2.bmp
+Texture: .\scientist\fhostagehedblonde.bmp
+Texture: .\scientist\fheadUS.bmp
+Texture: .\scientist\fheadasian.bmp
+Texture: .\scientist\fheadlationo.bmp
+Texture: .\scientist\fhostagebody3.bmp
+Done.
+--------------------------------------------------
+
+Half-Life MDL Decompiler 1.2
+2003, Kratisto. Based on code from Valve's HL SDK.
+--------------------------------------------------
+MDL: scientist01.mdl
+ERROR: Cannot open sequence file scientist0101.mdl
+--------------------------------------------------
+
+Half-Life MDL Decompiler 1.2
+2003, Kratisto. Based on code from Valve's HL SDK.
+--------------------------------------------------
+MDL: scientist02.mdl
+ERROR: Cannot open sequence file scientist0201.mdl
+--------------------------------------------------

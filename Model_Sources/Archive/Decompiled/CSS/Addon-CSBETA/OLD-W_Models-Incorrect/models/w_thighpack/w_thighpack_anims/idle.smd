@@ -1,0 +1,9 @@
+// Created by Crowbar 0.74
+version 1
+nodes
+  0 "skin01" -1
+end
+skeleton
+  time 0
+    0 1.217773 -0.413818 3.419922 -3.141375 -1.528912 -0.817023
+end
